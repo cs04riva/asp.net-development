@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventus", "Eventus\Eventus.csproj", "{CCDDD755-AE77-49F6-80BD-46C21686F3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{B2B5F32B-788D-4B51-829D-46993A8F7C48}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{46EE12C6-D6C1-4E23-A4C3-3E9D70428EF4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Eventus-WAWS-dev.json = PublishScripts\Configurations\Eventus-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{02646E18-0000-45B0-AC8B-077844C5E7CC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDDD755-AE77-49F6-80BD-46C21686F3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDDD755-AE77-49F6-80BD-46C21686F3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDDD755-AE77-49F6-80BD-46C21686F3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDDD755-AE77-49F6-80BD-46C21686F3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46EE12C6-D6C1-4E23-A4C3-3E9D70428EF4} = {B2B5F32B-788D-4B51-829D-46993A8F7C48}
+	EndGlobalSection
+EndGlobal
