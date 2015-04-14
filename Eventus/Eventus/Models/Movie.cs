@@ -14,7 +14,7 @@ namespace Eventus.Models
         public decimal Price { get; set; }
     }
 
-    public class MovieDBContext : ApplicationDbContext
+    public class MovieDBContext : DbContext
     {
         public DbSet<Movie> Movies { get; set; }
     }
