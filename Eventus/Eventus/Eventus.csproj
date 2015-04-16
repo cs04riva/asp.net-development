@@ -208,6 +208,10 @@
     <Compile Include="Migrations\201504160102486_FieldValidations.Designer.cs">
       <DependentUpon>201504160102486_FieldValidations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504160116005_UpdatedRequiredFields.cs" />
+    <Compile Include="Migrations\201504160116005_UpdatedRequiredFields.Designer.cs">
+      <DependentUpon>201504160116005_UpdatedRequiredFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -301,6 +305,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504160102486_FieldValidations.resx">
       <DependentUpon>201504160102486_FieldValidations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504160116005_UpdatedRequiredFields.resx">
+      <DependentUpon>201504160116005_UpdatedRequiredFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -12,6 +12,7 @@ namespace Eventus.Models
         public int ID { get; set; }
 
         [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Title { get; set; }
 
         [Display(Name = "Release Date")]
@@ -30,6 +31,7 @@ namespace Eventus.Models
 
         [RegularExpression(@"^[A-Za-z0-9-]+$")]
         [StringLength(5)]
+        [Required]
         public string Rating { get; set; }
 
         
