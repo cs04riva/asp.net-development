@@ -29,5 +29,7 @@ namespace EventApplication.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<EventApplication.Models.Event> Events { get; set; }
     }
 }
